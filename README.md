@@ -13,6 +13,7 @@ Simplified asynchronous headless webkit test generator based on textile specific
 
 ### Example Inputs (Textile)
 
+```
 h1. Microsoft SQL - Homepage Specification
 
 h2. http://www.microsoft.com/sqlserver/en/us/default.aspx
@@ -28,6 +29,7 @@ h3. a user lands on the homepage
 \* should always have at least four Tech Docs items
 
 \* should always have at least four Evidence items
+```
 
 ### Example Output (Phantom JavaScript spec)
 
