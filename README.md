@@ -13,7 +13,7 @@ Simplified asynchronous headless webkit test generator based on textile specific
 * Install Tato as a commandline utility: <code>npm link</code>
 * Invoke Tato Ariato Terriatodor: <code>$ tat examples/</code>
 
-### Usage
+## Usage
 
 ```
   $ tat examples/
@@ -73,7 +73,7 @@ h3. a user lands on the homepage
 
 
 
-### MIT License
+## MIT License
 
 
 (The MIT License)
