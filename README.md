@@ -5,6 +5,14 @@ Simplified asynchronous headless webkit test generator based on textile specific
 * Allows you to write specs in Textile format
 * Generates asynchronous headless webkit tests for Phantom
 
+
+## Installation
+
+* Clone repository by typing: <code>git clone git@github.com:jbueza/tato-ariato-terriatodor.git && cd tato-ariato-terriatodor</code>
+* Install npm bundles by typing: <code>npm install .</code>
+* Install Tato as a commandline utility: <code>npm link</code>
+* Invoke Tato Ariato Terriatodor: <code>$ tat examples/</code>
+
 ### Usage
 
 ```
