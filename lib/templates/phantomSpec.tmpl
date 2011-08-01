@@ -1,0 +1,19 @@
+/* Generated Specs for {{spec}} */
+var page = new WebPage();
+page.onConsoleMessage = function(msg) { console.log(msg); };
+page.open(encodeURI("{{url}}"), function (status) {
+  if (status !== "success") {
+    console.log("Unable to access network");
+  } else {    
+    var tests=[];var TestGroup=function a(a){tests.push({title:a,cases:[]});return this};TestGroup.prototype.it=function b(a,b){var c={title:a,callback:b};tests[tests.length-1].cases.push(c);return this};TestGroup.prototype.run=function c(){console.log("--------- STARTING SPEC RUNNER ---------");tests.forEach(function(a,b){var c=b+1;console.log(c+") when "+a.title);a.cases.forEach(function(a,b){var c=a.callback.call(this);if(c){console.log("✓ \t"+a.title)}else{console.log("✗ \t"+a.title)}})})};var when=function(a){return new TestGroup(a)};var expect=function d(a,b){if(a==b){return true}else{return false}}
+    when("{{testRun}}")
+{{#specs}}
+  it("{{testCase}}", function() {
+    return expect(true, true);
+  });
+{{/specs}}
+
+    .run();
+  }
+  phantom.exit();
+});

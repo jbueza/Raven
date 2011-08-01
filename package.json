@@ -1,0 +1,17 @@
+{
+    "name": "tato-ariato-terriatodor"
+  , "version": "0.0.1"
+  , "description": "Simplified asynchronous headless webkit test generator based on textile specifications."
+  , "keywords": []
+  , "author": "Jaime Bueza <jbueza@gmail.com>"
+  , "dependencies": {
+
+    "jsdom": ">= 0.2.0",
+    "mustache": ">= 0.1.0"
+  }
+  , "main": "index"
+  , "bin": {
+       "tat": "./bin/tat"
+  }
+  , "engines": { "node": "0.4.x" }
+}

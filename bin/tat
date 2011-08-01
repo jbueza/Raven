@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+;var  path      = require('path')
+    , sys       = require('sys')
+    , Hellion   = require('../index')
+    , messages  = [];
+
+
+console.log( "moo")
