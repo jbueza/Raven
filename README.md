@@ -20,15 +20,15 @@ h2. http://www.microsoft.com/sqlserver/en/us/default.aspx
 
 h3. a user lands on the homepage
 
-\* should always have the correct title
+* should always have the correct title
 
-\* should always have ten items in the Top 10 Benchmarks carousel
+* should always have ten items in the Top 10 Benchmarks carousel
 
-\* should always have three tabs in the hero carousel
+* should always have three tabs in the hero carousel
 
-\* should always have at least four Tech Docs items
+* should always have at least four Tech Docs items
 
-\* should always have at least four Evidence items
+* should always have at least four Evidence items
 ```
 
 ### Example Output (Phantom JavaScript spec)
