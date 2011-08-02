@@ -2,8 +2,32 @@
 
 ;var  path      = require('path')
     , sys       = require('sys')
-    , Hellion   = require('../index')
+    , fs        = require('fs')
+    , Tato      = require('../index')
     , messages  = [];
 
 
-console.log( "moo")
+// and path of test folder.
+var root, argv = process.ARGV;
+
+if(!argv.length) {
+  sys.puts(help);
+} else {
+  var target = path.join(__dirname, '..', argv[2]);
+  fs.readdir(target, function(err, files) {  
+    files.forEach(function(file, index) {
+      fs.stat(path.join(target, file), function (stat_error, stat) {
+        if (stat_error) console.log("ERROR: " + file + ", " + stat_error);
+        if (stat.isFile()) {
+          var filename = path.join(target, file);
+          fs.readFile(filename, 'ascii', function (read_error, content) {
+            if (read_error) console.log("ERROR: Can't read " + filename + ". " + read_error);
+            
+            console.log(content);
+          });
+        }
+      });
+    });
+  });
+}
+
