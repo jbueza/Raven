@@ -1,1 +1,7 @@
-http://www.microsoft.com/sqlserver/en/us/get-sql-server/try-it.aspx
+h1. Microsoft SQL - Product Try It Specification
+
+h2. http://www.microsoft.com/sqlserver/en/us/get-sql-server/try-it.aspx
+
+h3. a user lands on the page
+
+* should have cool kats
