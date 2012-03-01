@@ -1,2 +1,2 @@
 
-module.exports = require('./lib/tato-ariato-terriatodor');
+module.exports = require('./lib/raven');

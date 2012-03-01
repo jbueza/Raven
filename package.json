@@ -1,5 +1,5 @@
 {
-    "name": "tato-ariato-terriatodor"
+    "name": "Raven"
   , "version": "0.0.1"
   , "description": "Simplified asynchronous headless webkit test generator based on textile specifications."
   , "keywords": []
@@ -11,7 +11,7 @@
   }
   , "main": "index"
   , "bin": {
-       "tat": "./bin/tat"
+       "raven": "./bin/raven"
   }
   , "engines": { "node": "0.4.x" }
 }

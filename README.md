@@ -1,4 +1,4 @@
-# Tato Ariato Terriatodor - The Asynchronous Headless Webkit Test Generator
+# Raven - The Asynchronous Headless Webkit Test Generator
 
 Simplified asynchronous headless webkit test generator based on textile specifications.
   
@@ -8,15 +8,15 @@ Simplified asynchronous headless webkit test generator based on textile specific
 
 ## Installation
 
-* Clone repository by typing: <code>git clone git@github.com:jbueza/tato-ariato-terriatodor.git && cd tato-ariato-terriatodor</code>
+* Clone repository by typing: <code>git clone git@github.com:jbueza/Raven.git && cd Raven</code>
 * Install npm bundles by typing: <code>npm install .</code>
-* Install Tato as a commandline utility: <code>npm link</code>
-* Invoke Tato Ariato Terriatodor: <code>$ tat examples/</code>
+* Install Raven as a commandline utility: <code>npm link</code>
+* Invoke Raven: <code>$ tat examples/</code>
 
 ## Usage
 
 ```
-  $ tat examples/
+  $ raven examples/
 ```
 
 ### Example Inputs (Textile)
